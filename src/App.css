@@ -190,6 +190,21 @@ body {
     align-items: center;
   }
   .promotion img{
-    width: 20rem;
+    width: 9em;
   }
+  .promotion h2 {
+  font-size: 1.5em;
+  }
+  .planCardFooter{
+    padding: 0 !important;
+    padding-left: 30% !important;
+  }
+  .mealPlans {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+}
 }
