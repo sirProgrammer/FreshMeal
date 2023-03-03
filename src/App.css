@@ -195,10 +195,7 @@ body {
   .promotion h2 {
   font-size: 1.5em;
   }
-  .planCardFooter{
-    padding: 0 !important;
-    padding-left: 30% !important;
-  }
+
   .mealPlans {
     align-items: center;
     display: flex;

@@ -41,9 +41,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;
-padding: 20px;
 background-color: #42b883;
 font-size: 24px;
+text-align: center;
+display: flex;
+justify-content: center;
 }
 
 .planCardFooter p {
@@ -65,4 +67,10 @@ transition: all 0.2s ease-in-out;
 
 .planCardFooter button:hover {
 background-color: #58b269;
+}
+
+@media(max-width:1811px){
+	.planCard{
+		width: 70%;
+	}
 }
